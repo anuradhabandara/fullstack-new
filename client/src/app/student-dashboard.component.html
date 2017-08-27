@@ -1,0 +1,5 @@
+`<h3>Recent Students</h3>
+
+  <a *ngFor="let student of students" [routerLink]="['/detail', student.id]">
+      <h4>{{student.name}}</h4>
+  </a>`
